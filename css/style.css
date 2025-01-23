@@ -58,6 +58,48 @@ a {
     color: var(--main-bg-color)
 }
 
+/****** Header *******/
+header{
+    display:flex;
+    justify-content: space-between;
+    height: 79px;
+}
+
+.logo{
+    width:61.09px;
+    height:19px;
+}
+
+.logoreservia{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.menu{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.buttons {
+    display:flex;
+    list-style: none;
+    gap:68px;
+    height:35px;
+    align-items:flex-end;
+}
+
+.btn-menu{
+    padding-top:15px;
+}
+
+.btn-menu:hover{
+    color: #0065FC;
+    border-top-style:solid;
+
+}
+
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
