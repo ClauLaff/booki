@@ -109,6 +109,7 @@ header{
 .search-bar{
     display:flex;
     max-width:377px;
+    width:fit-content;
     height:49px;
     border:1px solid #F2F2F2;
     border-radius:15px;
@@ -123,7 +124,17 @@ header{
     font-size:18px;
     font-weight: 700;
     padding-left:20px;
-    padding-right: 20px;;
+    padding-right: 20px;
+}
+.search-icon{
+    background-color: #0065FC;
+    height:17px;
+    width:17px;
+    border-radius: 15px;
+    border:none;
+    font-weight: 700;
+    padding:20px;
+    visibility:hidden;
 }
 .text-input{
     border:none;
@@ -140,6 +151,8 @@ header{
     border-bottom-left-radius:15px;
     text-align:center;
     padding-top:10px;
+    padding-left:18px;
+    padding-right:18px;
 }
 
 /****** Hebergements And Populaires ***********/
