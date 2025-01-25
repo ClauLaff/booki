@@ -63,6 +63,7 @@ header{
     display:flex;
     justify-content: space-between;
     height: 79px;
+    
 }
 
 .logo{
@@ -73,13 +74,12 @@ header{
 .logoreservia{
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-left: 50px;
+
     padding-right: 50px;
 }
 
 .menu{
     padding-left: 50px;
-    padding-right: 50px;
 }
 .buttons {
     display:flex;
@@ -99,6 +99,44 @@ header{
 
 }
 
+/****** Info-section *****************************/
+
+.info-section{
+    margin-top:35px;
+    margin-bottom:35px;
+}
+
+.search-bar{
+    display:flex;
+    width:377px;
+    height:49px;
+    border:1px solid #F2F2F2;
+    border-radius:15px;
+    justify-content: space-between;
+}
+.search-button{
+    background-color: #0065FC;
+    color: white;
+    width:132px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius:15px;
+    border:none;
+    font-size:18px;
+    font-weight: 700;
+}
+.text-input{
+    border:none;
+
+}
+
+.search-label{
+    background-color:#F2F2F2;
+    width:50px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius:15px;
+    text-align:center;
+    padding-top:10px;
+}
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
