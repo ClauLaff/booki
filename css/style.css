@@ -234,11 +234,10 @@ header{
 .hebergements-cards .card {
     display: flex;
     flex-direction:column;
-    width:200px;
 }
 
 .hebergements-cards img {
-    width: 100%;
+    width: 200px;
     height: 124px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -315,6 +314,33 @@ header{
     margin-bottom: 5px;
 }
 
+/********** Activités **********/
+
+.activites{
+    padding:30px;
+}
+
+.activites-cards{
+    display:flex;
+    margin:30px 0px 30px 0px;
+    justify-content: space-between;
+}
+
+.activites-cards .card{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;;
+}
+
+.activites-cards img{
+   width:285px;
+   height:380px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+}
+
+.activites-cards .card-content{
+    padding-left: 15px;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
