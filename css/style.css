@@ -330,18 +330,23 @@ header{
     display:flex;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    justify-content: space-around;
 }
 
 .activites-cards img{
-    width:285px;
-    height:380px;
+    width:211px;
+    height:300px;
    border-top-left-radius: 20px;
    border-top-right-radius: 20px;
 }
 
 .activites-cards .card-content{
-    padding-left: 15px;
+    padding-left:10px;
 }
+.card-content h3{
+    font-size:15px;
+}
+
 
 /********** Footer **********/
 
@@ -349,6 +354,7 @@ footer{
     display:flex;
     flex-direction: row;
     align-content: flex-start;
+    background-color:#F2F2F2;
 }
 footer div{
     width:33%;
