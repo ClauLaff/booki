@@ -118,8 +118,6 @@ header{
     display:flex;
     border-top: 1px solid #F2F2F2;
     border-bottom: 1px solid #F2F2F2;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
     width:100%;
 }
 .text-input{
@@ -445,6 +443,10 @@ footer div h2{
 
     .search-bar{
        width:100%;
+    }
+    .text-input-and-search-icon{
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
     }
     .text-input{
         width:100%;
