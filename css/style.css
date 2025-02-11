@@ -21,7 +21,6 @@ body {
 .main-container {
     width: 100%;
     max-width: 1440px;
-    min-width:320px;
     padding: 0 50px;
     box-sizing: border-box;
 }
@@ -66,24 +65,18 @@ header{
 }
 
 .logo{
-    width:61.09px;
-    height:19px;
-}
-
-.logoreservia{
+    width:61px;
+    height:19px; 
     padding-top: 30px;
     padding-bottom: 30px;
 }
-
 .buttons {
     display:flex;
     gap:68px;
 }
-
 .menu-btn{
     padding-top:15px;
 }
-
 .menu-btn:hover{
     color: #0065FC;
     border-top-style:solid;
@@ -93,7 +86,6 @@ header{
 
 .info-section{
     margin-top:30px;
-    width:100%;
 }
 
 /**search-bar**/
@@ -102,8 +94,6 @@ header{
     display:flex;
     width:40%;
     height:50px;
-    border-top:#F2F2F2;
-    border-bottom: #F2F2F2;
     margin-top:30px;
 }
 .search-bar img{
@@ -127,12 +117,6 @@ header{
     padding-left: 20px;
 }
 .search-icon{
-    background-color: #0065FC;
-    height:18px;
-    width:18px;
-    border-radius: 15px;
-    font-weight: 700;
-    padding:15px;
     visibility:hidden;
 }
 .search-button{
@@ -151,26 +135,20 @@ header{
     display:flex;
     margin-top:30px;
     align-items: center;
-}
-
-.information-line img{
-   padding-right:10px;
+    gap:10px;
 }
 
 /**Filters-area**/
 
 .filters-area{
     display:flex;
-   
     gap:15px;
     margin-top:30px;
-    
 }
 .filters-title{
     font-size:18px;
     font-weight:700;
 }
-
 .filters{
     display:flex;
     gap:15px;
@@ -182,17 +160,13 @@ header{
     font-size: 18px;
     font-weight: 700;
 }
-.filter img{
-    padding-right: 10px;
-}
 .filter:hover{
     background-color: #DEEBFF;
 }
-
-.filter-logo{
+.filter img{
     height:18px;
-    width:18px;
-    
+    width:18px;  
+    padding-right: 10px;
 }
 
 /****** Hebergements And Populaires ***********/
@@ -204,10 +178,10 @@ header{
 }
 
 .hebergements-and-populaires section {
-    padding: 30px;
-    box-sizing: border-box;
-    border-radius: 20px;
     background-color:#F2F2F2;
+    border-radius: 20px;
+    padding: 30px;
+    box-sizing: border-box;  
 }
 
 /****** Hebergements ***********/
@@ -310,15 +284,14 @@ header{
     padding:30px;
     margin-top:30px;
 }
-.activites-cards a{
-    width:25%;
-}
 .activites-cards{
     display:flex;
     margin-top:33px;
     justify-content: space-between;
 }
-
+.activites-cards a{
+    width:25%;
+}
 .activites-cards .card{
     display:flex;
     flex-direction: column;
@@ -326,20 +299,14 @@ header{
     border-top-right-radius: 20px;
     height:100%;
 }
-
 .activites-cards img{
-    width:100%;
     height:380px;
    border-top-left-radius: 20px;
    border-top-right-radius: 20px;
 }
-
 .activites-cards .card-content{
     padding-left:15px;
 }
-
-
-
 
 /********** Footer **********/
 
@@ -396,14 +363,12 @@ footer div h2{
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+    
     .activites-cards img{
         height:200px;
     }
     .filters-area{
         flex-direction:column;
-    }
-    .filters{
-        gap:10px;
     }
     .hebergements-cards .card{
        height:200px;
@@ -451,29 +416,31 @@ footer div h2{
     .text-input{
         width:100%;
     }
-    
     .search-button{
-        width:0px;
-        height:0px;
-        visibility:hidden;
+       display:none;
     }
-
     .search-icon{
+        background-color: #0065FC;
+        height:18px;
+        width:18px;
+        border-radius: 15px;
+        font-weight: 700;
+        padding:15px;
         visibility:visible;
     }
 
-   .filters{
-    display:flex;
-    flex-wrap: wrap;
-    gap:5px;
-   }
+    .filters{
+        display:flex;
+        flex-wrap: wrap;
+        gap:5px;
+    }
     .filter{
         display:flex;
         width:40%;
        font-size: 16px;
     }
     .filter img{
-        padding-right:5px;
+     padding-right:5px;
     }
 
     .hebergements-and-populaires{
