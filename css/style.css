@@ -292,7 +292,7 @@ header{
     justify-content: space-between;
 }
 .activites-cards a{
-    width:25%;
+    width:23%;
 }
 .activites-cards .card{
     display:flex;
@@ -302,7 +302,7 @@ header{
     height:100%;
 }
 .activites-cards img{
-    height:380px;
+    height:375px;
    border-top-left-radius: 20px;
    border-top-right-radius: 20px;
 }
